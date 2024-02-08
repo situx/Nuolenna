@@ -1,5 +1,10 @@
 <html>
-<head><title>Nuolenna</title></head>
+<head><title>Nuolenna</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+<script src="sign_list.js"></script>
+</head>
 <body>
 <h1>Nuolenna Signlist</h1>
 <ul>
@@ -9,5 +14,14 @@
 <li><a href="sign_list_ascii.json">JSON (CDLI Transliteration)</a></li>
 <li><a href="rdf">RDF Serialization</a></li>
 <li><a href="sign_list.txt">TXT (ORACC Transliteration)</a></li>
+</ul>
+<table id="nuolennatable"><thead><th>Reading</th><th>Unicode</th></thead>
+<tbody id="tbody">
+</tbody>
+</table>
+
+<script>
+$('#nuolennatable').DataTable({"data":nuolenna});
+</script>
 </body>
 </html>
