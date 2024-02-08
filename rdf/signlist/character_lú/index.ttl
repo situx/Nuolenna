@@ -1,0 +1,41 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns2: <http://purl.org/graphemon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_lú> a ns2:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: LÚ" ;
+    ns1:sense <https://situx.github.io/cuneiformontology/signlist/character_lú_sense_gentleman>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_sense_man>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_sense_someone> ;
+    ns2:abzl "253" ;
+    ns2:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_ad6>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_du14>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_hesz5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_inbir2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_lu2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_lu2_awīlum>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_lu2_lu2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_na6>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_ruh2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_sza11>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_szaga>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_szagaₓ>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_szaŋaₓ>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_sze29>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lú_reading_ lu2_rare> ;
+    ns2:hasPart <https://situx.github.io/cuneiformontology/signlist/character_lu2> ;
+    ns2:hethzl "78" ;
+    ns2:labat "330" ;
+    ns2:meszl "514" ;
+    ns2:obo "253" ;
+    ns2:signName "LÚ" ;
+    ns2:slha "330" ;
+    ns2:unicodeCodepoint "U+121FD" ;
+    ns2:unicodeRepresentation "𒇽" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/dataset> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556019> .
+

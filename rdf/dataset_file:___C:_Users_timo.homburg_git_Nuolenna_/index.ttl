@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://situx.github.io/cuneiformontology/dataset_file:___C:_Users_timo.homburg_git_Nuolenna_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: dataset - Nuolenna"@en ;
+    void:linkPredicate <http://purl.org/graphemon/epoch> ;
+    void:objectsTarget <file:///C:/Users/timo.homburg/git/Nuolenna/> ;
+    void:subjectsTarget <https://situx.github.io/cuneiformontology/dataset> ;
+    void:triples 684 .
+

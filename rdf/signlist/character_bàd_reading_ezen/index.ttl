@@ -1,0 +1,14 @@
+@prefix ns1: <http://purl.org/graphemon/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_bàd_reading_ezen> a ns1:GraphemeReading,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Grapheme Reading BÀD (UG5 (EZEN×AN)): EZEN",
+        "Grapheme Reading BÀD (UG5 (EZEN×AN)): ezen" ;
+    ns1:epoch <file:///C:/Users/timo.homburg/git/Nuolenna/signlist.ttl>,
+        <http://www.wikidata.org/entity/Q110209565> ;
+    ns1:readingValue "ezen" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/dataset> .
+

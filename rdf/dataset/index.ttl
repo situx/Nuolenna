@@ -1,0 +1,122 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://situx.github.io/cuneiformontology/dataset> a void:Dataset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "dataset"@en ;
+    ns1:averageLiteralLength 18 ;
+    ns1:averageObjectIRILength 54 ;
+    ns1:averagePropertyIRILength 36 ;
+    ns1:averageSubjectIRILength 77 ;
+    ns1:datatypes 0 ;
+    ns1:distinctBlankNodes 0 ;
+    ns1:distinctIRIReferences 76514 ;
+    ns1:distinctLiterals 39640 ;
+    ns1:distinctRDFNodes 116154 ;
+    ns1:languages 0 ;
+    ns1:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-02-08T22:46:55"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "dataset"@en ;
+    void:classPartition <https://situx.github.io/cuneiformontology/dataset_Epoch>,
+        <https://situx.github.io/cuneiformontology/dataset_Grapheme>,
+        <https://situx.github.io/cuneiformontology/dataset_GraphemeComposition>,
+        <https://situx.github.io/cuneiformontology/dataset_GraphemeList>,
+        <https://situx.github.io/cuneiformontology/dataset_GraphemeReading>,
+        <https://situx.github.io/cuneiformontology/dataset_GraphemeSense> ;
+    void:classes 6 ;
+    void:dataDump <https://situx.github.io/Nuolenna/index.ttl> ;
+    void:distinctObjects 57600 ;
+    void:distinctSubjects 18894 ;
+    void:entities 17374 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 20 ;
+    void:propertyPartition <https://situx.github.io/cuneiformontology/dataset_abzl>,
+        <https://situx.github.io/cuneiformontology/dataset_epoch>,
+        <https://situx.github.io/cuneiformontology/dataset_hasGraphemeReading>,
+        <https://situx.github.io/cuneiformontology/dataset_hasPart>,
+        <https://situx.github.io/cuneiformontology/dataset_hethzl>,
+        <https://situx.github.io/cuneiformontology/dataset_labat>,
+        <https://situx.github.io/cuneiformontology/dataset_label>,
+        <https://situx.github.io/cuneiformontology/dataset_lak>,
+        <https://situx.github.io/cuneiformontology/dataset_member>,
+        <https://situx.github.io/cuneiformontology/dataset_meszl>,
+        <https://situx.github.io/cuneiformontology/dataset_obo>,
+        <https://situx.github.io/cuneiformontology/dataset_readingValue>,
+        <https://situx.github.io/cuneiformontology/dataset_reference>,
+        <https://situx.github.io/cuneiformontology/dataset_sameAs>,
+        <https://situx.github.io/cuneiformontology/dataset_sense>,
+        <https://situx.github.io/cuneiformontology/dataset_signName>,
+        <https://situx.github.io/cuneiformontology/dataset_slha>,
+        <https://situx.github.io/cuneiformontology/dataset_type>,
+        <https://situx.github.io/cuneiformontology/dataset_unicodeCodepoint>,
+        <https://situx.github.io/cuneiformontology/dataset_unicodeRepresentation> ;
+    void:triples 103414 ;
+    void:uriSpace "https://situx.github.io/cuneiformontology/"^^xsd:string ;
+    void:vocabulary dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    foaf:homepage <https://situx.github.io/Nuolenna> ;
+    foaf:page <https://situx.github.io/Nuolenna/index.html> .
+
