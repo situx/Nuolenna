@@ -4,23 +4,24 @@ on: [push]
 
 jobs:
     
-  #ontdocI:
-  #  uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
-  #  name: Ontdoc I      
-  #  with: 
-  #        rdffilepath: data/ct_obj_pf_1.ttl data/ct_feature_observation_1.ttl data/genericforms_1.ttl data/informationcarrier_1.ttl data/potformars_1.ttl data/statement_applique_1.ttl data/feature_1.ttl
-  #        version: v017dev
-  #        docpath: docs/
-  #        prefixns: http://data.archaeology.link/data/ars/
-  #        prefixnsshort: ars
-  #       indexpages: true
-  #       metadatatable: true
-  #        createcollections: false
-  #        iiif: true
-  #        createnonNSPages: true
-  #        createVOWL: true
-  #        preferredlang: en
-  #        ghpages: true
+  ontdoc:
+    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    name: Ontdoc      
+    with: 
+          rdffilepath: signlist.ttl
+          version: v017dev
+          docpath: docs/
+          prefixns: https://situx.github.io/cuneiformontology/
+          prefixnsshort: cuneisignlist
+          indexpages: true
+          metadatatable: true
+          createcollections: false
+          iiif: true
+          createnonNSPages: true
+          createVOWL: true
+          preferredlang: en
+          ghpages: true
+          ghpagesfolder: rdf
 
   build:
 
